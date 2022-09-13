@@ -32,7 +32,7 @@ const LoginForm = () => {
     return (
         
         <div className="cover">
-            <h1>Login</h1>
+            <h1>Login Page</h1>
             <input type="text" placeholder="username" value={username} onChange = {e=>{
                 e.preventDefault()
                 setUsername(e.target.value)
